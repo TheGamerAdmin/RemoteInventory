@@ -1,0 +1,16 @@
+name: RemoteInventory
+main: com.thegameradmin.remoteinventory.RemoteInventory
+version: 1.0
+author: TheGamerAdmin
+api-version: 1.16
+commands:
+  remoteplayerinv:
+    usage: /<command> <player>
+    description: Opens a player's inventory.
+    aliases: playerinv
+    permission: remoteinventory.remoteplayerinv
+  remotechest:
+    usage: /<command> <x> <y> <z> [world]
+    description: Opens a chest from coordinates.
+    aliases: openchest
+    permission: remoteinventory.remotechest

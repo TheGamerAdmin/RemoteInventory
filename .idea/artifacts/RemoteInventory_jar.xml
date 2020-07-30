@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RemoteInventory:jar">
+    <output-path>$PROJECT_DIR$/../Server/plugins</output-path>
+    <root id="archive" name="RemoteInventory.jar">
+      <element id="module-output" name="RemoteInventory" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../Dependencies/spigot-api-1.16.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
